@@ -6,7 +6,7 @@ frontend:
         - npm install
     build:
       commands:
-        - echo "REACT_APP_API_NODEJS_URL=${REACT_APP_API_NODEJS_URL}" > .env
+        - echo "NODEJS_URL=${NODEJS_URL}" > .env
         - npm run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
